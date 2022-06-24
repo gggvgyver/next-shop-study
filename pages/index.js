@@ -11,7 +11,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      002next js 탬플릿설치
+      <h1 className="text-3xl font-bold underline">
+        tailwind css 적용되는것을 확인했음
+      </h1>
     </div>
   )
 }
