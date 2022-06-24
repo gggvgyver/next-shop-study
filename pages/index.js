@@ -11,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      000_next js 처음 설치 후 테스트
+      002next js 탬플릿설치
     </div>
   )
 }
