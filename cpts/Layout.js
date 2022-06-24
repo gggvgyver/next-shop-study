@@ -1,11 +1,15 @@
 import React from 'react'
 import Head from 'next/head'
 
-export default function Layout({ children }) {
+export default function Layout({ title, children }) {
   return (
     <>
       <Head>
-        <title>next-shop-study | 220622</title>
+        <title>
+          {title
+            ? title + '-next-shop-study | 220622'
+            : 'next-shop-study | 220622'}
+        </title>
         <meta name="description" content="학습용 next js 쇼핑몰" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
